@@ -1,0 +1,48 @@
+# --- Gizli bilgiler ---
+wp-config.php
+*.sql
+*.sql.gz
+*.gz
+.env
+.htaccess
+
+# --- WordPress çekirdeği (her zaman yeniden indirilebilir) ---
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+
+# --- Medya ve önbellek ---
+wp-content/uploads/
+wp-content/cache/
+wp-content/wp-rocket-config/
+wp-content/litespeed/
+wp-content/smush-webp/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/updraft/
+wp-content/ai1wm-backups/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/languages/
+
+# --- Hazır temalar (sadece child tema repoda) ---
+wp-content/themes/*
+!wp-content/themes/betheme-child/
+
+# --- Hazır eklentiler (liste PLUGINS.md içinde) ---
+wp-content/plugins/*
+
+# --- Yedekler ve loglar ---
+*.zip
+*.log
+debug.log
+error_log
+
+# --- Sistem dosyaları ---
+.DS_Store
+Thumbs.db
+desktop.ini
